@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #0b4251;
+}
+
+.buttons > button {
+  text-align: center;
+  background-color: #f2c864;
+  margin: 15px;
+  width: 100px;
+  border: none;
+  color: white;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px #f2c864;
+}
+.buttons > button:hover {
+  transform: translateY(-5px);
+}
+
+.buttons > button:active {
+  box-shadow: 1px 1px 5px #f2c864;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* padding: 25px; */
+  margin-left: 25px;
+  background-color: #f2c864;
+  width: 250px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+form > button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0 0 10px 10px;
+  border: 0;
+  background-color: #062730;
+  color: #fff;
+}
+
+label {
+  color: white;
+}
+
+input {
+  margin: auto;
+  padding: 5px;
+  display: block;
+  background-color: #dceffa;
+  border-radius: 25px;
+  border: none;
+}
+
+/* .cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+
+div[class^="cards"] {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: #87bbd7;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.cardsFish {
+  background-color: #87bbd7;
+}
+
+.cardsCat {
+  background-color: #a9a9a9;
+}
+
+.cardsBird {
+  background-color: #32cd32;
+}
